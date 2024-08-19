@@ -1,0 +1,26 @@
+module.exports.authValidation = require('./auth.validation');
+module.exports.userValidation = require('./user.validation');
+module.exports.propertyValidation = require('./property.validation');
+module.exports.rulesValidation = require('./rules.validation');
+module.exports.verifyValidation = require('./verify.validation');
+
+module.exports.tenantProfileValidation = require('./tenant.validation');
+module.exports.landlordProfileValidation = require('./landlord.validation');
+module.exports.partnerProfileValidation = require('./partner.validation');
+module.exports.internalProfileValidation = require('./internal.validation');
+module.exports.inspectionValidation = require('./inspection.validation');
+module.exports.adhaarValidation = require('./adhaar.validation');
+module.exports.panValidation = require('./pan.validation');
+module.exports.eligibilityValidation = require('./eligibility.validation');
+module.exports.invitationValidation = require('./invitation.validation');
+module.exports.walletValidation = require('./wallet.validation');
+module.exports.consentValidation = require('./consent.validation');
+module.exports.notificationValidation = require('./notification.validation');
+module.exports.webhookValidation = require('./webhook.validation');
+module.exports.newsValidation = require('./news.validation');
+module.exports.leadsValidation = require('./leads.validation');
+module.exports.requestValidation = require('./request.validation');
+module.exports.referralValidation = require('./referral.validation');
+module.exports.applicantValidation = require('./applicant.validation');
+module.exports.crimereportingValidation = require('./crimereporting.validation');
+module.exports.equifaxlogValidation = require('./equifaxlog.validation');

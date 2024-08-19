@@ -1,0 +1,45 @@
+{
+  "name": "eqaro-backend",
+  "packageManager": "yarn@3.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "jest -i --colors --verbose --detectOpenHandles",
+    "dev-user": "cd packages/user-management && yarn dev",
+    "test:watch": "jest -i --watchAll",
+    "coverage": "jest -i --coverage",
+    "coverage:coveralls": "jest -i --coverage --coverageReporters=text-lcov | coveralls",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --write **/*.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "eslint-import-resolver-node": "^0.3.6",
+    "faker": "^5.1.0",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "coveralls": "^3.0.7",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^24.0.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "husky": "^7.0.4",
+    "jest": "^26.0.1",
+    "lint-staged": "^11.0.0",
+    "node-mocks-http": "^1.8.0",
+    "nodemon": "^2.0.0",
+    "prettier": "^2.0.5",
+    "supertest": "^6.0.1"
+  }
+}

@@ -1,0 +1,32 @@
+module.exports.authService = require('./auth.service');
+module.exports.emailService = require('./email.service');
+module.exports.tokenService = require('./token.service');
+module.exports.userService = require('./user.service');
+module.exports.propertyService = require('./property.service');
+module.exports.rulesService = require('./rules.service');
+module.exports.dashboardService = require('./dashboard.service');
+
+module.exports.tenantProfileService = require('./tenant.service');
+module.exports.landlordProfileService = require('./landlord.service');
+module.exports.partnerProfileService = require('./partner.service');
+module.exports.internalProfileService = require('./internal.service');
+module.exports.verifyService = require('./verify.service');
+
+module.exports.inspectionService = require('./inspection.service');
+module.exports.aadharService = require('./aadhar.service');
+module.exports.panService = require('./pan.service');
+module.exports.idcraService = require('./idcra.service');
+module.exports.utilityService = require('./utility.service');
+module.exports.eligibilityService = require('./eligibility.service');
+module.exports.invitationService = require('./invitation.service');
+module.exports.walletService = require('./wallet.service');
+module.exports.consentService = require('./consent.service');
+module.exports.notificationService = require('./notification.service');
+module.exports.webhookService = require('./webhooks.service');
+module.exports.newsService = require('./news.service');
+module.exports.leadsService = require('./leads.service');
+module.exports.requestService = require('./request.service');
+module.exports.referralService = require('./referral.service');
+module.exports.applicantService = require('./applicant.service');
+module.exports.crimereportingService = require('./crimereporting.service');
+module.exports.equifaxlogService = require('./equifaxlog.service');
